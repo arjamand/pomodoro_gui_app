@@ -19,7 +19,7 @@ The Pomodoro Technique is a time management method that uses a timer to break wo
 
 1. Clone this repository to your local machine.
 2. Ensure you have Python installed on your computer.
-3. Run the `pomodoro.py` script using the command `python pomodoro.py` or `python3 pomodoro.py`.
+3. Run the `main.py` script using the command `python main.py` or `python3 main.py`.
 4. The application window will open with a start button and a reset button.
 5. Click the "Start" button to begin the timer. The timer will start with a 25-minute work session.
 6. After each work session, the application will automatically switch to a 5-minute short break. During the short break, a pink "Break" label will be displayed.
@@ -33,7 +33,7 @@ The Pomodoro Technique is a time management method that uses a timer to break wo
 
 ## Customization
 
-You can customize the timer durations in the `pomodoro.py` script by modifying the following constants:
+You can customize the timer durations in the `main.py` script by modifying the following constants:
 
 - `WORK_MIN`: Duration of each work session in minutes (default: 25 minutes).
 - `SHORT_BREAK_MIN`: Duration of each short break in minutes (default: 5 minutes).
